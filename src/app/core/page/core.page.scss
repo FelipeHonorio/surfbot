@@ -1,0 +1,31 @@
+.container {
+    padding: 0 45px;
+    margin: 0 auto;
+    min-width: 1260px;
+}
+
+.header
+{
+    .header__message {
+        display:flex;
+        align-items: center;
+        height: 30px;
+        background: #1188EE;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .header__menu {
+        background: #17222D;
+        .header__menuContent
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+    }
+
+
+}
