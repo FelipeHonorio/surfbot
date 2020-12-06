@@ -1,0 +1,62 @@
+
+main {
+    
+    background-image: url(../../../../assets/img/background_home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 30px;
+
+    & > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        color: white;
+        font-family: Alice;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 82px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .input-matricula {
+        box-shadow: 0 5px 5px 0px #17222D;
+        height: 50px;
+        width: 470px;
+        border-radius: 6px;
+        display: block;
+
+        input {    
+            height: 100%;
+            width: 265px;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            font-size: 18px;
+            font-family: Nunito;
+            font-weight: 700;
+            padding-left: 18px;
+            border: 0;
+        }
+
+        button {
+            font-family: Nunito;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            color: white;
+            height: 100%;
+            width: 185px;
+            background: #EE2211;
+            border-radius: 0px 5px 5px 0px;
+            border: 0;
+        }
+        
+    }
+
+}
