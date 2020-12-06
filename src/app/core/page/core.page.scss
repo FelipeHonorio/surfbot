@@ -1,13 +1,15 @@
+
 .container {
     padding: 0 45px;
     margin: 0 auto;
-    min-width: 1260px;
+    width: 100%;
+    max-width: 1260px;
 }
 
 .header
 {
     .header__message {
-        display:flex;
+        display: flex;
         align-items: center;
         height: 30px;
         background: #1188EE;
@@ -18,11 +20,36 @@
 
     .header__menu {
         background: #17222D;
+
         .header__menuContent
         {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            height: 60px;
+        }
+
+        .header__menuNav {
+            ul  {
+                display: flex;
+                li {
+                    padding-right: 16px;
+                    color: white;
+
+                    a {
+                        text-decoration: none;
+                        color: currentColor;
+                    }
+                    
+                    span { padding-left: 16px; }
+
+                    &:last-child {
+                        border-bottom: 2px solid #EE2211;
+                        padding-right: 0;
+                    }
+                }
+                
+            }
             
         }
     }
